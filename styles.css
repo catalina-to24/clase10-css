@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+/* header */
+
+.encabezado {
+background-color: #1CD1B0;
+padding: 10px;
+padding-left: 25px;
+
+}
+
+
+/* main */ 
+
+
+.heroes {
+    padding: 27px;
+    background-color: #00669F;
+    box-shadow: 1px 8px 5px rgb(199, 199, 199);
+    height: 101px
+    position: sticky;
+    top: 0px;
+}
+
+.perfiles {
+    left: 32px;
+    height: 1000px;
+    position: relative;
+    top: 292px;
+    width: 980px;
+}
+
+.perfilbatman1, .perfilbatman2, .perfilharleyqueen {
+    background-color: #f3f3f3;
+    border-radius: 16px 16px 0px 0px;
+    display: inline-block;
+    height: 529px;
+    width: 300px;
+
+}
+
+.perfilbatman1 {
+    background-image: url("../img/849bfede3a5193c34ab8a00379e64fa2 1.png");
+    background-repeat: no-repeat;
+}
+
+.texto1, .texto2, .texto3 {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    position: relative;
+    top: 130px;
+    
+    
+}
+
+.perfilharleyqueen {
+    background-image: url("../img/fondoharley.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 400px;
+    border-radius: 0px 20px 0px 20px;
+}
+
+
+.harley-queen {
+    border-radius: 40%;
+}
+
+.perfilbatman2 {
+        background-image: url("../img/849bfede3a5193c34ab8a00379e64fa2 1.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        display: inline-block;
+        position: absolute;
+        left: 800px;
+
+    }
+
+.batman1, .harley-queen, .batman2 {
+    align-items: center;
+    position: relative;
+    left: 80px;
+    top: 100px;
+}    
+
+.personaje, .harley {
+    text-align: center;
+    font-weight: 800;
+    position: relative;
+    top: 100px;
+}
+
+.heart {
+    position: absolute;
+    height: 25px;
+    top: 25px;
+    left: 10px;
+}
+
+.vermas1, .vermas2, .vermas3 {
+        background-color: #00669F;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        position: absolute;
+        width: 128.78px;
+        height: 48.52px;
+        left: 80px;
+        top: 450px;
+    }     
+
+section {
+    display: block;
+}
+/* footer */
+
+footer {
+    color: white;
+    background-color: #00669F;
+    position: absolute;
+    width: 100%;
+    height: 21px;
+    left: 0px;
+    top: 972px;
+}
